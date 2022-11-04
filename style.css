@@ -11,8 +11,6 @@ body {
 
 header {
     background-color: #3DE07E;
-    
-    
 }
 
 main {
@@ -63,25 +61,31 @@ button {
 
 .witch-card {
     color: #fff;
+    max-width: 19.5rem;
 }
 
 .troll-card {
     color: #fff;
+    max-width: 19.5rem;
 }
 
 .scarecrow-card {
     color: #fff;
+    max-width: 19.5rem;
 }
 
 .sadako-card {
     color: #fff;
+    max-width: 19.5rem;
 }
 
 .jason-card {
     color: #fff;
+    max-width: 19.5rem;
 }
 
 .ghost-card {
     color: #fff;
+    max-width: 19.5rem;
 }
 
