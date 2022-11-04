@@ -52,40 +52,50 @@ button {
     text-align: center;
 }
 
-.card-container--sml {
+.card-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
-    margin: 6rem 14rem;
+    grid-template-columns: repeat(6, 10rem); /*grid 6 span 2, stora korten span 3, kanske 30rem om man vill att dom ska styra storleken*/
+    grid-template-rows: repeat(2, 31rem);
 }
 
 .witch-card {
     color: #fff;
     max-width: 19.5rem;
+    grid-column: 1 / span 2;
 }
 
 .troll-card {
     color: #fff;
     max-width: 19.5rem;
+    grid-column: 3 / span 2;
+
 }
 
 .scarecrow-card {
     color: #fff;
     max-width: 19.5rem;
+    grid-column: 5 / span 2;
+
 }
 
 .sadako-card {
     color: #fff;
     max-width: 19.5rem;
+    grid-column: 1 / span 2;
+
 }
 
 .jason-card {
     color: #fff;
     max-width: 19.5rem;
+    grid-column: 3 / span 2;
+
 }
 
 .ghost-card {
     color: #fff;
     max-width: 19.5rem;
+    grid-column: 5 / span 2;
+
 }
 
