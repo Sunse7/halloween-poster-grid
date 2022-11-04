@@ -4,6 +4,8 @@
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
     background-color: #000;
 }
 
@@ -22,6 +24,25 @@ background-color: rgba(255, 255, 255, 0.2);
 color: #fff;
 }
 
+h3 {
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+button {
+    background-color: #E83F57;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
 .header__headline {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
@@ -32,3 +53,35 @@ color: #fff;
     align-items: center;
     text-align: center;
 }
+
+.card-container--sml {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin: 6rem 14rem;
+}
+
+.witch-card {
+    color: #fff;
+}
+
+.troll-card {
+    color: #fff;
+}
+
+.scarecrow-card {
+    color: #fff;
+}
+
+.sadako-card {
+    color: #fff;
+}
+
+.jason-card {
+    color: #fff;
+}
+
+.ghost-card {
+    color: #fff;
+}
+
